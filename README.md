@@ -34,6 +34,12 @@ The usage of the app consists of three steps:
 
 The client will communicate with the server to perform the proof of knowledge of the secret input it has access to.
 
+Or simply try the [tests](./lib/src/lib.rs#L75):
+
+```
+cargo test
+```
+
 ### How does it work
 
 Machine learning models are fixed algebraic circuits, operating on arrays of floats.
